@@ -34,6 +34,9 @@ jobs:
     - name: Where am I?
       run: |
         pwd
+    - name: What is here?
+      run: |
+        ls
     - name: Test with pytest
       run: |
         pytest
