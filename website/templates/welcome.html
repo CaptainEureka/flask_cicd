@@ -6,7 +6,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to your first CI/CD pipeline!</h2>
+    {% if name %}
+      <h1>Welcome to your first CI/CD pipeline, {{ name }}!</h2>
+    {% else %}
+      <h1>Welcome to your first CI/CD pipeline!</h1>
+    {% endif %}
       <br>
       <p>Click <a href="/">here</a> to go home.</p>
     </div>
