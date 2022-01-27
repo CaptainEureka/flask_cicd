@@ -1,5 +1,0 @@
-[
-  "tests/test_app.py::test_get_welcome_page",
-  "tests/test_app.py::test_get_welcome_named",
-  "tests/test_app.py::test_get_index_hello"
-]

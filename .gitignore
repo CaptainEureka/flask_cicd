@@ -1,2 +1,7 @@
 */__pycache__
 */__pychache__/*
+*/__pycache__/*/*/*
+*/.pytest_cache/*/cache/*
+*/.pytest_cache/v/cache/lastfailed
+*/.pytest_cache/v/cache/nodeids
+*/.pytest_cache
